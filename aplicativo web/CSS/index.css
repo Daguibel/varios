@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+*
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mali', sans-serif;
+    margin: 0;
+    background-image: url("../images/fondo\ conejos\ y\ zanahorias.jpg");
+    background-size: cover;
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 2.8rem;}
+h3{font-size: 2.5rem;}
+h4{font-size: 1.5;}
+h5{font-size: 1rem;}
+h5{font-family: 'Mali', sans-serif;}
+p{font-size: 1.2rem;}
+p{font-weight: 600;}
+p{font-family: 'Mali', sans-serif;}
+ul{list-style: disc;}
+li{font-size: 1.25rem;}
+
+button {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(109, 3, 105);
+    box-shadow: 1px 1px 8px rgb(3, 0, 3); 
+    color: bisque;
+    background-color: #0468A5;
+}
+
+button a{
+    text-decoration: none;
+    color: bisque;
+}
+
+button:hover {
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:visited {
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:link{
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:active{
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    background-image:url(../images/conejobanner.jpeg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover 25px;
+    padding-bottom: 15px;
+
+}
+
+header .logo {
+    margin: 0;
+    padding: 15px 15px;
+    font-weight:900;
+    font-size: 4em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+header a {
+    padding: 1px 5px;
+    text-decoration:dotted;
+    font-weight:bold;
+    color: rgb(22, 2, 36);
+}
+
+header a :hover {
+    color: #F996D5;
+}
+
+#latte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Aprende .container {
+    text-align:justify;
+}
+
+#Aprende button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;  
+
+}
+
+#consideraciones .container {
+    text-align: justify;
+}
+
+#Productos {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+#Productos .container {
+   padding: 50px 20px; 
+}
+
+#Productos .menu {
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.menu:first-child {
+   background-color: rgb(248, 96, 202);   
+}
+
+.menu:first-child button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;
+}
+
+
+#Ending {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    background-color: rgb(243, 142, 218);
+    background-image: url("../images/Contactanos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;    
+}
+
+#Ending form .campo, textarea{
+    width: 50%;
+    margin-left: 25;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;}
+
+
+#Ending form .btn-enviar{
+    font-size: 2em;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(109, 3, 105);
+    box-shadow: 1px 1px 8px rgb(3, 0, 3); 
+    color: bisque;
+    background-color: #0468A5;
+    font-family: 'Mali', sans-serif;
+    font-size:medium
+}
+
+footer {
+    height: 300px;
+    display:flex;
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(8, 8, 8);    
+}
+
+footer .social-media {
+    margin-bottom: 5.4rem;
+    font-size: 2.5rem;
+}
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        justify-content:center;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #latte h1{
+        font-size: 5em;
+    }
+
+    #Aprende .container{
+        display: flex;
+        justify-content:center;
+
+    }
+
+    #Aprende .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Aprende h2{
+        margin-top: 0px;
+    }
+
+    #Aprende .img-container{
+        background-image: url("../images/Oreo.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+        border-style: groove;
+        border-radius: 3rem;
+    }
+
+    #Productos .Tienda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Productos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Productos h2{
+        font-size: 4em;
+    }
+
+   #Productos h3{
+        margin-top: 0;
+    }
+
+    #Productos  .menu{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(248, 96, 202);
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    }
+
+    .menu:first-child{
+        background-color: rgb(248, 96, 202);
+    }
+
+    }
+
+    #Ending h2{
+        font-size: 5em;
+    }
+
+    #Ending button{
+        font-size: 2em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+
+
+header, .alert{
+    z-index: 100;
+  }
+  .description{
+    height: 30px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+    height:auto;
+  }
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hide, .remove{
+    display: none;
+  }
+
+  .table__productos{
+    display: flex;    
+    font-family: 'Mali', sans-serif;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+    
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-family: 'Mali', sans-serif;
+  }
+
+  .card-title pt-2 text-center text-primary {
+    font-family: 'Mali', sans-serif;
+
+  }
+

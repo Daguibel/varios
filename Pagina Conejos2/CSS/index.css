@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+*
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mali', sans-serif;
+    margin: 0;
+    background-image: url("/images/degrade.png");
+    background-size: cover;
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 2.8rem;}
+h2{font-family: 'Mali', sans-serif;}
+h3{font-size: 2.5rem;}
+h4{font-size: 1.5;}
+h5{font-size: 1rem;}
+h5{font-family: 'Mali', sans-serif;}
+p{font-size: 1.2rem;}
+p{font-weight: 600;}
+p{font-family: 'Mali', sans-serif;}
+ul{list-style: disc;}
+li{font-size: 1.25rem;}
+
+button {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(109, 3, 105);
+    box-shadow: 1px 1px 8px rgb(3, 0, 3); 
+    color: bisque;
+    background-color: #0468A5;
+}
+
+button a{
+    text-decoration: none;
+    color: bisque;
+}
+
+button:hover {
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:visited {
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:link{
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+button:active{
+    background-color: #0468A5;
+    color: bisque;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #F996D5;
+    position: absolute;
+    z-index: 1;
+    background-image:url(../images/conejoanimado.gif);
+    background-repeat: no-repeat;
+    background-size: 155px;
+    background-position: 25px;
+
+}
+
+header .logo {
+    margin: 0;
+    padding: 15px 15px;
+    font-weight:900;
+    color: crimson;
+    font-size: 4em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+header a {
+    padding: 1px 5px;
+    text-decoration:dotted;
+    font-weight:bold;
+    color: rgb(22, 2, 36);
+}
+
+header a :hover {
+    color: #F996D5;
+}
+
+#latte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(15, 49, 247, 0.5),
+        rgba(226, 209, 240, 0.5)
+    )
+    ,url("../images/latte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Aprende .container {
+    text-align:justify;
+}
+
+#Aprende button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;  
+
+}
+
+#consideraciones .container {
+    text-align: justify;
+}
+
+#Productos {
+    text-align: justify;
+    color: aliceblue;
+}
+
+#Productos .container {
+   padding: 50px 20px; 
+}
+
+#Productos .menu {
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.menu:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../images/conejo_comida.jpg");
+}
+.menu:first-child button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;
+}
+
+.menu:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../images/conejo_orejilargo.jpg");
+}
+.menu:nth-child(2) button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;
+}
+
+.menu:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/conejo_toy.jpg");
+}
+.menu:nth-child(3) button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;
+}
+
+#Adopta .container{
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+#Adopta li {
+    margin: 20px 5px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#Adopta button {
+    font-family: 'Mali', sans-serif;
+    font-size:medium;
+}
+#Fotos .Albin{
+    display: flex;
+    justify-content:center;
+    padding: 25px 25px;    
+}
+
+#Fotos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Fotos .img-container1{
+    background-image: url(../images/Albin.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+    border-style:groove;
+    border-radius: 50px;
+}
+
+#Fotos .Berlin{
+    display: flex;
+    justify-content:center;
+    padding: 25px 25px; 
+}
+
+#Fotos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Fotos .img-container2{
+    background-image: url(../images/Berlin.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+    border-style:groove;
+    border-radius: 50px;
+}
+
+#Fotos .Copito{
+    display: flex;
+    justify-content:center;
+    padding: 25px 25px; 
+}
+
+#Fotos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Fotos .img-container3{
+    background-image: url(../images/Copito.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+    border-style:groove;
+    border-radius: 50px;
+}
+
+#Fotos .Oreo{
+    display: flex;
+    justify-content:center;
+    padding: 25px 25px; 
+}
+
+#Fotos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Fotos .img-container4{
+    background-image: url(../images/Oreo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+    border-style:groove;
+    border-radius: 50px;
+}
+
+#Ending {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    background-color: rgb(243, 142, 218);
+    background-image: url("../images/Contactanos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;    
+}
+
+#Ending form .campo, textarea{
+    width: 50%;
+    margin-left: 25;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;}
+
+
+#Ending form .btn-enviar{
+    font-size: 2em;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(109, 3, 105);
+    box-shadow: 1px 1px 8px rgb(3, 0, 3); 
+    color: bisque;
+    background-color: #0468A5;
+    font-family: 'Mali', sans-serif;
+    font-size:medium
+}
+
+footer {
+    height: 300px;
+    display:flex;
+    justify-content: left;
+    background-image: url("../images/verduras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .social-media {
+    margin-bottom: 5.4rem;
+    font-size: 2.5rem;
+}
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        justify-content:center;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #latte h1{
+        font-size: 5em;
+    }
+
+    #Aprende .container{
+        display: flex;
+        justify-content:center;
+    }
+
+    #Aprende .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Aprende h2{
+        margin-top: 0px;
+    }
+
+    #Aprende .img-container{
+        background-image: url("../images/latte.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+    #Productos .Tienda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Productos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Productos h2{
+        font-size: 4em;
+    }
+
+   #Productos h3{
+        margin-top: 0;
+    }
+
+    #Productos  .menu{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .menu:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../images/conejo_comida.jpg");
+
+    }
+
+    .menu:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../images/conejo_orejilargo.jpg");
+    }
+
+    .menu:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../images/conejo_toy.jpg");
+
+    }
+
+    #Adopta .container{
+        text-align: initial;
+    }
+
+    #Adopta ul{
+        margin-left: 100px;
+    }
+
+    #Ending h2{
+        font-size: 5em;
+    }
+
+    #Ending button{
+        font-size: 2em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+header, .alert{
+    z-index: 100;
+  }
+  .description{
+    height: 25px;
+    overflow:hidden;
+    transition: height .8s ease-in .8s;
+  }
+
+  .description:hover{
+    height:auto;
+  }
+
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hide, .remove{
+    display: none;
+  }
+
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .card-title pt-2 text-center text-primary {
+    font-family: 'Mali', sans-serif;
+
+  }
+
+  .container2 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap: 1rem;
+    
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+}
+
+  .main-video, .video-playlist {
+    width: 100%;
+    height: 30rem;
+}
+
+.main-video .title {
+    margin-top: 1rem;
+}
+
+.video-playlist .title {
+    padding-left: 1rem;
+}
+
+.video-playlist > p {
+    padding: 1rem;
+    color: var(--secondary);
+}
+
+.video-playlist .videos{
+    height: 70%;
+    overflow-y: auto;
+}
+
+.video-playlist .videos::-webkit-scrollbar {
+    width: .4rem;
+    border-radius: .4rem;
+    background-color: #0005;
+}
+
+.video-playlist .videos::-webkit-scrollbar-thumb {
+    border-radius: .4rem;
+    background-color: #fff;
+}
+
+.video-playlist .videos .video {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 1rem;
+    margin-top: .1rem;
+    cursor: pointer;
+
+    border-radius: .5rem;
+}
+
+.video-playlist .videos .video:hover {
+    background-color: #0003;
+}
+
+.video-playlist .videos .video.active {
+    background-color: #0003;
+    color: var(--secondary);
+}
+
+.main-video video {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.video img {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    
+    filter: invert(100%);
+}
+
+.video-playlist .videos .video.active img {
+    filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
+}
+
+.video p {
+   margin-left: 2.5rem;
+}
+
+.video h4 {
+    width: 23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font: 100 1rem sans-serif;
+    padding: 0 .5rem;
+}

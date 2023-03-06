@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>47luvbuns</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">47luvbuns</p>
+            <nav>
+                <a href="#Aprende">Aprende de Conejos</a>
+                <a href="#Productos">Productos</a>
+                <a href="#Adopta">Adopta un Conejito</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="latte">
+        <h1>Somos Bolitas de Amor Responsable</h1>
+        <button>¡Conoce mas!</button>
+    </section>
+
+    <section id="Aprende">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2>Aprende de Conejos</h2>
+                <p>Los Conejos son mascotas amorosas, pero requieren tiempo para adaptarse
+                al nuevo hogar. Para el cuidado de estos animalitos, debes tener paciencia, tiempo
+                y asegurarse de tener todo lo que necesita para que sean los mejores amigos.
+                </p>
+                <button> Mas Información</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Productos">
+        <div class="container">
+            <h2>Tienda</h2>
+            <div class="Tienda">
+              <div class="menu">
+                <h3>Alimentación</h3>
+                 <p>Todo lo que tu peludito necesita para una dieta balanceada y dientes sanos</p>
+                    <button>Compra!</button>
+              </div>
+              <div class="menu">
+                <h3>Juguetes y Hábitat</h3>
+                 <p>Todo lo que tu peludito necesita para divertirse y descansar comodamente</p>
+                    <button>Compra!</button>
+              </div>     
+              <div class="menu">
+                <h3>Higiene y cuidado</h3>
+                 <p>Todo lo que tu peñudito necesita para un pelaje, piel y uñitas saludables</p>
+                    <button>Compra!</button>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Adopta">
+        <div class="container">
+            <h3>Antes de Adoptar...</h3>
+            <p>Los conejitos pueden vivir en promedio 7 a 12 años, asi que hay que evaluar primero
+               si nuestro compromiso de cuidarlo toda su vida, el tiempo que tengamos, paciencia y
+               disposición estan arriba. Recuerda que los conejitos son SERES VIVOS que se adaptan
+               a su hogar, son rutinarios, y cualquier cambio los estresa, lo que conlleva a que
+               enfermen y puedan morir. Preguntate lo siguiente
+            </p>
+            <ul>
+                <li>¿Viajo con frecuencia?</li>
+                <li>¿Como me proyecto a 10 años?</li>
+                <li>¿Puedo afrontar economicamente el tener un conejo?</li>
+                <li>¿sere responsable durante toda su vida?</li>
+                <li>¿Tengo un horario que permita compartir con el en el dia?</li>
+           </ul>
+           <p>Si tienes todo para aceptar el reto de ser un amante de los conejos, dale click abajo
+            para darle un hogar a un peludito y que sea tu mejor amigo.
+           </p>
+           <button>Adoptame!</button>
+        </div>
+    </section>
+
+    <section id="Ending">
+        <h2>Bienvenido futuro Aminej@ a este mundo suavecito</h2>
+        <div>
+            <h4>¿Quieres mas información? suscribete para tener todas las novedades</h4>
+            <form action="" class="news-form">
+                <input type="text" class="news-input"
+                placeholder="Escribe tu email"
+                >
+                <button class="news-btn" type="submit">
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Colombia - 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
